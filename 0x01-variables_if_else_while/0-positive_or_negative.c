@@ -2,12 +2,11 @@
 #include<time.h>
 #include<stdio.h>
 
-/*
- * main-Entry point of the program
- *
+/**
+ * main -Entry point
  * Description: Positive anything is better than negative nothing
- * Return Always:0(Success)
-*/
+ * Return: 0
+ */
 int main(void)
 {
 int n;
