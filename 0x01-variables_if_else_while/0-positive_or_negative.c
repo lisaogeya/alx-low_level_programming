@@ -5,7 +5,7 @@
 /*
  * main-Entry point of the program
  *
- * Description: This is the main function of the program.
+ * Description: Positive anything is better than negative nothing
  * Return Always:0(Success)
 */
 int main(void)
