@@ -3,10 +3,10 @@
 #include<stdio.h>
 
 /*
- * main - Entry point of the program that checks for positive or negative integers
+ * main-Entry point of the program
  *
  * Description: This is the main function of the program.
- * Return Always: 0 (Success)
+ * Return Always:0(Success)
 */
 int main(void)
 {
