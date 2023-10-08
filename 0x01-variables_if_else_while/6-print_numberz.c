@@ -9,34 +9,13 @@
 
 int main(void)
 {
-putchar(48);
-putchar('\n');
+int i;
 
-putchar(49);
-putchar('\n');
+for (i = 0; i <= 9; i++)
+{
+putchar(i = '0');
+}
 
-putchar(50);
-putchar('\n');
-
-putchar(51);
-putchar('\n');
-
-putchar(52);
-putchar('\n');
-
-putchar(53);
-putchar('\n');
-
-putchar(54);
-putchar('\n');
-
-putchar(55);
-putchar('\n');
-
-putchar(56);
-putchar('\n');
-
-putchar(57);
 putchar('\n');
 
 return (0);
