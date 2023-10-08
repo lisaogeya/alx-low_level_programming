@@ -15,7 +15,6 @@ int number = 0;
 while (number <= 9)
 {
 putchar(number + '0');
-putchar('\n');
 number++;
 }
 return (0);
