@@ -17,7 +17,6 @@ putchar(num + '0');
 if (num != 9)
 {
 putchar(',');
-putchar(',');
 }
 }
 putchar('\n');
