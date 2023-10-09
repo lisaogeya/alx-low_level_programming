@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-#ifdef _ _LP64_ _
+#ifdef __LP64__
 printf("Size of char : %lu byte(s)\n", sizeof(char));
 printf("Size of int : %lu byte(s)\n", sizeof(int));
 printf("Size of long int : %lu byte(s)\n", sizeof(long int));
