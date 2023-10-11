@@ -10,28 +10,21 @@
 
 int main(void)
 {
-int dig1, dig2, digit1, digit2;
+int a, b;
 
-for (dig1 = 0; dig1 <= 9; dig1++)
+for (a = 0; a < 98; a++)
 {
-for (dig2 = 0; dig2 <= 9; dig2++)
+for (b = (a + 1); b < 100; b++)
 {
-for (digit1 = dig1; digit1 <= 9; digit1++)
-{
-for (digit2 = (digit1 == dig1) ? dig2 + 1 : 0; digit2 <= 9; digit2++)
-{
-putchar(dig1 + '0');
-putchar(dig2 + '0');
+putchar('0' + (a / 10));
+putchar('0' + (a % 10));
 putchar(' ');
-putchar(digit1 + '0');
-putchar(digit2 + '0');
-
-if (!(dig1 == 9 && dig2 == 9 && digit1 == 9 && digit2 == 9))
+putchar('0' + (b / 10));
+putchar('0' + (b % 10));
+if (!(a == 98 && b == 99))
 {
 putchar(',');
 putchar(' ');
-}
-}
 }
 }
 }
