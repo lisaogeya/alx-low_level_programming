@@ -12,7 +12,8 @@ _putchar('0' + r);
 }
 else
 {
-_putchar(r *= -1 + '0');
+r *= -1;
+_putchar('0' + r);
 }
 return (0);
 }
