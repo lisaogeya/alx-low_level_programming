@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isupper- Checks uppercase letters
- *@c: Parameters to be checked
+ *@c:Parameters to be checked
  *
  * Return:1 if true, otherwise 0
  */
