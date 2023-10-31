@@ -18,15 +18,11 @@ return (NULL);
 }
 for (hght_i = 0; hght_i < height; hght_i++)
 {
-
-if (two_d[hght_i] == NULL)
-{
 for (; hght_i >= 0; hght_i--)
 free(two_d[hght_i]);
 
 free(two_d);
 return (NULL);
-}
 }
 for (hght_i = 0; hght_i < height; hght_i++)
 {
@@ -35,6 +31,3 @@ two_d[hght_i][wth_i] = 0;
 }
 return (two_d);
 }
-
-
-
