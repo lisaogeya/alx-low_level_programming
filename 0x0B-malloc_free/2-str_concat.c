@@ -12,6 +12,7 @@ int i;
 int length = 0;
 int j = 0;
 char *str;
+
 if (s1 == NULL)
 {
 s1 = "";
