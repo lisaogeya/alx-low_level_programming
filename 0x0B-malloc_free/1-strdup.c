@@ -30,6 +30,7 @@ for (i = 0; str[i]; i++)
 cpy[i] = str[i];
 
 cpy[length] = '\0';
+
 return (cpy);
 }
 }
