@@ -16,10 +16,6 @@ if (width <= 0 || height <= 0)
 {
 return (NULL);
 }
-if (two_d == NULL)
-{
-return (NULL);
-}
 for (hght_i = 0; hght_i < height; hght_i++)
 {
 two_d[hght_i] = malloc(sizeof(int) * width);
