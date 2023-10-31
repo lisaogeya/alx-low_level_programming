@@ -18,7 +18,7 @@ return (NULL);
 for (i = 0; str[i]; i++)
 {
 length++;
-
+}
 cpy = malloc(sizeof(char) * (length + 1));
 
 if (cpy == NULL)
@@ -28,10 +28,8 @@ return (NULL);
 for (i = 0; str[i]; i++)
 {
 cpy[i] = str[i];
-
+}
 cpy[length] = '\0';
 
 return (cpy);
-}
-}
 }
