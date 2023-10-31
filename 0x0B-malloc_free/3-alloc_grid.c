@@ -18,7 +18,7 @@ return (NULL);
 }
 for (hght_i = 0; hght_i < height; hght_i++)
 {
-two_d[hght_i] = malloc(sizeof(int) * width);
+
 if (two_d[hght_i] == NULL)
 {
 for (; hght_i >= 0; hght_i--)
