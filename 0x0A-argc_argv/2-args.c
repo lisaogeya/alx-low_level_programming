@@ -7,10 +7,10 @@
  */
 int main(int argc, char *argv[])
 {
-int i;
-for (i = 0; i < argc; i++)
+int arg1;
+for (arg1 = 0; arg1 < argc; arg1++)
 {
-printf("%s\n", argv[i]);
+printf("%s\n", argv[arg1]);
 return (0);
 }
 }
