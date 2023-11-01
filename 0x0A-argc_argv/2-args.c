@@ -11,6 +11,6 @@ int arg1;
 for (arg1 = 0; arg1 < argc; arg1++)
 {
 printf("%s\n", argv[arg1]);
-return (0);
 }
+return (0);
 }
