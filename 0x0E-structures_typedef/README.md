@@ -1,1 +1,1 @@
-Defining struct types
+Printing a struct dog
