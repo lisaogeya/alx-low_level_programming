@@ -1,1 +1,1 @@
-Header file that defines macro SIZE as abbreviation for token 1024
+Header file that defines macro PI as abbreviation for token 3.14159265359
