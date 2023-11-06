@@ -1,0 +1,12 @@
+#include <stdio.h>
+/**
+ * main-prints name of file of program it was compiled from
+ * Return:0
+ */
+int main(void)
+{
+printf("File was compiled from: %s\n", __FILE__);
+
+return (0);
+}
+
