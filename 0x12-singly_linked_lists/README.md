@@ -1,1 +1,1 @@
-Singly Linked lists is a list made up of nodes that consists of Data & Link
+void free_list(list_t *head)
