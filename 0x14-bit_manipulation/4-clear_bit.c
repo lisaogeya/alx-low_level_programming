@@ -2,7 +2,7 @@
 /**
  * clear_bit- sets value of bit at given index
  * @n:pointer to bit
- * @index:indices 
+ * @index:indices
  * Return: -1 if error occurs else 1
  */
 int clear_bit(unsigned long int *n, unsigned int index)
